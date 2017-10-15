@@ -1,0 +1,23 @@
+{
+  "name": "react_fundamentals",
+  "version": "1.0.0",
+  "description": "A Fundamental Understanding on React, Redux with Build Tools like Webpack , babel along with linters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeev-iitr-uk/React_Fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjeev-iitr-uk/React_Fundamentals/issues"
+  },
+  "homepage": "https://github.com/sanjeev-iitr-uk/React_Fundamentals#readme",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
