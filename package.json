@@ -4,7 +4,7 @@
   "description": "A Fundamental Understanding on React, Redux with Build Tools like Webpack , babel along with linters.",
   "main": "index.js",
   "scripts": {
-    "test": "webpack"
+    "test": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
