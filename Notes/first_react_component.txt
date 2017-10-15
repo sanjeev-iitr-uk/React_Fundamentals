@@ -1,0 +1,28 @@
+first_react_component
+------------------------
+
+1- react
+
+The react package contains React.createElement, React.createClass and React.Component, React.PropTypes, React.Children, and the other helpers related to elements and component classes. We think of these as the isomorphic or universal helpers that you need to build components.
+
+2- react-dom
+The react-dom package contains ReactDOM.render, ReactDOM.unmountComponentAtNode, and ReactDOM.findDOMNode, and in react-dom/server we have server-side rendering support with ReactDOMServer.renderToString and ReactDOMServer.renderToStaticMarkup.
+
+3- babel-core, babel-loader, babel-preset-env, babel-preset-react
+Babel is a JavaScript transpiler that converts edge JavaScript into plain old ES5 JavaScript that can run in any browser (even the old ones).
+
+7- css-loader
+is a Webpack loader that can load some CSS and inject it into the document via a <link> tag.
+
+8- style-loader
+is the loader that can parse a CSS file and apply various transforms to it. Crucially it has a CSS Modules mode that can take our CSS and hash the classes as mentioned above.
+
+9-html-webpack-plugin
+While creating index.html manually works good, it would be nice if webpack can create the index.html automatically for us with an included <script> tag with its src pointing to our app.bundle.js.
+Webpack can do this for us with the help of html-webpack-plugin. Using this plugin has some added advantages like auto-hashing the ‘src’ attribute of the embedded <script> tag every time the webpack is run, which makes browser to get the latest version of the file from server instead of using a cached one whenever it has a new hash.
+
+10-webpack
+Webpack is a module bundler, it bundles various module formats primarily so they can be run in a browser
+
+11-webpack-dev-server
+Webpack Dev Server is itself an express server which uses webpack-dev-middleware to serve the latest bundle and additionally handles hot module replacement (HMR) requests for live module updates in the client.
