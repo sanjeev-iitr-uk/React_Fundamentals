@@ -1,16 +1,9 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import Home from './components/home';
 import './index.css';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>Hello World Hii</div>
-    )
-  }
-}
-
 ReactDOM.render(
-  <App />,
+  <Home />,
   document.getElementById('app')
 );
